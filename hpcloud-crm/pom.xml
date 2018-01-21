@@ -6,7 +6,7 @@
 	<groupId>com.hpsgts</groupId>
 	<artifactId>hpcloud-crm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>hpcloud-crm</name>
 	<description>Demo project for Spring Boot</description>
@@ -16,5 +16,8 @@
 		<artifactId>hpcloud-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
+	<modules>
+		<module>hpcloud-crm-services</module>
+		<module>hpcloud-crm-controller</module>
+	</modules>
 </project>

@@ -5,6 +5,7 @@ import org.hibernate.validator.constraints.Email;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+
 import javax.persistence.Table;
 import javax.validation.constraints.Min;
 import java.util.Date;
@@ -16,8 +17,8 @@ import java.util.Date;
  * @projectName hpcloud-parent
  * @company G翔时代技术服务有限公司
  */
+@Entity(name = "sysUser")
 @Table(name = "sys_user")
-@Entity
 public class SysUserEntity {
 
     /** 主键id */
