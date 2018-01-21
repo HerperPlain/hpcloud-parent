@@ -70,12 +70,26 @@
 		</plugins>
 	</build>
 	<modules>
+		<!-- 项目全局注册发现中心 -->
 		<module>hpcloud-eureka-server</module>
+		<!-- 项目全局注册中心 -->
 		<module>hpcloud-eureka-client</module>
-		<module>hpcloud-config-server</module>
-		<module>hpcloud-config-client</module>
+		<!-- 服务消费中心 -->
 		<module>hpcloud-ribbon</module>
+		<!-- 项目全局配置服务中心 -->
+		<module>hpcloud-config-server</module>
+		<!-- 配置调用客户端 -->
+		<module>hpcloud-config-client</module>
+		<!-- 项目全局消息中心 处理消息相关的内容 ：MQ SMS PUSH-->
 		<module>hpcloud-message-center</module>
+		<!-- 项目全局 公共方法组件 ：util config -->
+		<module>hpcloud-common</module>
+		<!-- 管理系统 -->
+		<module>hpcloud-crm</module>
+		<module>hpcloud-crm/hpcloud-crm-controller</module>
+		<module>hpcloud-crm/hpcloud-crm-services</module>
+		<!-- 项目全局 公共entity dao -->
+		<module>hpcloud-model</module>
 	</modules>
 
 </project>
