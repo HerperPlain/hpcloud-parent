@@ -23,11 +23,11 @@ public class SysUserEntity {
 
     /** 主键id */
     @Id
-    @Column(name = "id", unique = true)
+    @Column(name = "id", unique = true,columnDefinition = "COMMENT 'id'")
     private String id;
 
     /** 用户业务编码 */
-    @Column(name = "user_code")
+    @Column(name = "user_code",columnDefinition = " varchar(255) DEFAULT NULL COMMENT '用户业务编码'")
     private String userCode;
 
     /** 用户登录密码 */
