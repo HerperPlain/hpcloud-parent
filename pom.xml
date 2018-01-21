@@ -75,6 +75,7 @@
 		<module>hpcloud-config-server</module>
 		<module>hpcloud-config-client</module>
 		<module>hpcloud-ribbon</module>
+		<module>hpcloud-message-center</module>
 	</modules>
 
 </project>
