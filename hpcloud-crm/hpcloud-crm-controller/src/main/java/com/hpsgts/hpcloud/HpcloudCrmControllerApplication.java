@@ -22,6 +22,6 @@ public class HpcloudCrmControllerApplication {
 	}
 	@RequestMapping(value = "/")
 	public String index(){
-		return "redirect:index.html";
+		return "redirect:admin/index.html";
 	}
 }

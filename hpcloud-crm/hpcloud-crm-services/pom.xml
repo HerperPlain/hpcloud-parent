@@ -7,9 +7,9 @@
 	<artifactId>hpcloud-crm-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
 	<name>hpcloud-crm-services</name>
 	<description>Demo project for Spring Boot</description>
+
 	<parent>
 		<groupId>com.hpsgts</groupId>
 		<artifactId>hpcloud-crm</artifactId>
@@ -19,11 +19,6 @@
 		<dependency>
 			<groupId>com.hpsgts</groupId>
 			<artifactId>hpcloud-model</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.hpsgts</groupId>
-			<artifactId>hpcloud-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

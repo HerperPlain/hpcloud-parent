@@ -91,10 +91,10 @@
 		<module>hpcloud-common</module>
 		<!-- 管理系统 -->
 		<module>hpcloud-crm</module>
-		<module>hpcloud-crm/hpcloud-crm-services</module>
-		<module>hpcloud-crm/hpcloud-crm-controller</module>
 		<!-- 项目全局 公共entity dao -->
 		<module>hpcloud-model</module>
+		<!-- 公共web项目 -->
+		<module>hpcloud-web</module>
 	</modules>
 
 </project>

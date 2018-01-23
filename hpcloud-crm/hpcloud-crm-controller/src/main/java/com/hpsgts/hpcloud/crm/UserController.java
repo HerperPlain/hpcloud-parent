@@ -1,7 +1,5 @@
 package com.hpsgts.hpcloud.crm;
 
-import com.hpsgts.hpcloud.common.base.BaseService;
-import com.hpsgts.hpcloud.model.crm.entity.SysUserEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class UserController {
-    BaseService<SysUserEntity> baseService;
+//    BaseService<SysUserEntity> baseService;
 
     @RequestMapping("/hello")
     public String hello(){

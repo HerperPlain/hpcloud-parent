@@ -1,4 +1,4 @@
-package com.hpsgts.hpcloud.common.base;
+package com.hpsgts.hpcloud.crm.services.base;
 
 import java.util.List;
 

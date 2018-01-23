@@ -2,20 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
 	<groupId>com.hpsgts</groupId>
 	<artifactId>hpcloud-crm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
 	<name>hpcloud-crm</name>
 	<description>Demo project for Spring Boot</description>
-
 	<parent>
 		<groupId>com.hpsgts</groupId>
 		<artifactId>hpcloud-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	<modules>
 		<module>hpcloud-crm-services</module>
 		<module>hpcloud-crm-controller</module>

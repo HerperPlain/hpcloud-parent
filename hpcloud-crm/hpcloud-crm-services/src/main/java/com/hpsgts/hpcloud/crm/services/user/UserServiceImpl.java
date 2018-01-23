@@ -1,6 +1,7 @@
 package com.hpsgts.hpcloud.crm.services.user;
 
-import com.hpsgts.hpcloud.common.base.BaseService;
+
+import com.hpsgts.hpcloud.crm.services.base.BaseService;
 import com.hpsgts.hpcloud.model.crm.dao.SysUserEntityDao;
 import com.hpsgts.hpcloud.model.crm.entity.SysUserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
