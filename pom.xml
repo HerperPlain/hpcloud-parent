@@ -24,6 +24,10 @@
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Edgware.SR1</spring-cloud.version>
 		<fastjson.version>1.1.41</fastjson.version>
+		<druid.version>1.0.25</druid.version>
+		<mysql.version>5.1.41</mysql.version>
+		<elasticsearch.version>5.4.3</elasticsearch.version>
+		<commons.lang3.version>3.4</commons.lang3.version>
 	</properties>
 
 	<dependencies>
@@ -50,7 +54,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.41</version>
+			<version>${mysql.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -60,7 +64,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.4</version>
+			<version>${commons.lang3.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-codec</groupId>
@@ -81,12 +85,12 @@
 		<dependency>
 			<groupId>org.elasticsearch.client</groupId>
 			<artifactId>transport</artifactId>
-			<version>5.4.3</version>
+			<version>${elasticsearch.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.elasticsearch</groupId>
 			<artifactId>elasticsearch</artifactId>
-			<version>5.4.3</version>
+			<version>${elasticsearch.version}</version>
 		</dependency>
 		<!-- 阿里开源json操作依赖 -->
 		<dependency>
@@ -94,6 +98,12 @@
 			<artifactId>fastjson</artifactId>
 			<version>${fastjson.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>${druid.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
