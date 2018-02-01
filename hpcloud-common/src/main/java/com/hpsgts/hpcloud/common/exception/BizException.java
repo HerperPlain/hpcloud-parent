@@ -2,7 +2,7 @@ package com.hpsgts.hpcloud.common.exception;
 /**
  * 
  * 自定义业务异常
- * @author conly.wang
+ * @author 黄朴（
  *
  */
 public class BizException extends RuntimeException {

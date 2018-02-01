@@ -3,7 +3,7 @@ package com.hpsgts.hpcloud.common.enums;
 /**
  * @author 黄朴（Herper.Plain）
  * @Date 2018/1/30 下午2:15
- * @Company 上海宏鹿信息技术服务有限公司
+ * @Company 青朴信息技术服务有限公司
  */
 public enum  ResponseEnum {
     SUCCESS(2000,"成功"),
