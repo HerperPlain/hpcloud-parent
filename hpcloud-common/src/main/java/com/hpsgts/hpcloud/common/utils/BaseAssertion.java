@@ -12,10 +12,11 @@ import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Pattern;
 
+
 /**
- * 断言工具类
- * @author conly.wang 2015-11-04
- *
+ *  断言工具类
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
  */
 public abstract class BaseAssertion extends Assert {
 

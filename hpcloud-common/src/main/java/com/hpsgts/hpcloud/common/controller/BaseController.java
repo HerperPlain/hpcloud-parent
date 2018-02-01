@@ -15,7 +15,6 @@ import javax.validation.ConstraintViolationException;
 /**
  * @author 黄朴（Herper.Plain）
  * @Date 2018/1/30 下午2:14
- * @Company 上海宏鹿信息技术服务有限公司
  */
 @ControllerAdvice
 public class BaseController {

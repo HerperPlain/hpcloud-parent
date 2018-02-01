@@ -5,7 +5,6 @@ import com.hpsgts.hpcloud.common.enums.ResponseEnum;
 /**
  * @author 黄朴（Herper.Plain）
  * @Date 2018/1/30 下午2:27
- * @Company 上海宏鹿信息技术服务有限公司
  */
 public class Response {
     private int code;

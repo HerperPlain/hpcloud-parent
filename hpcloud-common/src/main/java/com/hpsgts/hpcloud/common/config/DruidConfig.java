@@ -16,6 +16,8 @@ import java.sql.SQLException;
 
 /**
  * 数据库连接池
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/2/1 下午12:10
  * @Configuration
  */
 public class DruidConfig {

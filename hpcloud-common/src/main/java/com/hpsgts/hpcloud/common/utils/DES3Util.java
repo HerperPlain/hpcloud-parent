@@ -12,7 +12,11 @@ import java.nio.charset.Charset;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.TreeMap;
-
+/**
+ *  DES加解密工具
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
+ */
 public class DES3Util {
 
 	// 定义加密算法，DESede即3DES

@@ -35,8 +35,8 @@ import java.util.List;
 
 /**
  * @author 黄朴（Herper.Plain）
- * @Date 2017/12/20 下午4:39
- * @Company 上海宏鹿信息技术服务有限公司
+ * @Date 2018/02/01 下午12:30
+ * @Company 青朴信息技术服务有限公司
  */
 public class ElasticsearchUtil {
     private static final Logger logger = LoggerFactory.getLogger(ElasticsearchUtil.class);

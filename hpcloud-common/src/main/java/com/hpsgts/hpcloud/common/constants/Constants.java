@@ -3,7 +3,6 @@ package com.hpsgts.hpcloud.common.constants;
 /**
  * @author 黄朴（Herper.Plain）
  * @Date 2018/2/1 下午12:10
- * @Company 上海宏鹿信息技术服务有限公司
  */
 public class Constants {
     public static final String CODE = "code";

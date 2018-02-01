@@ -1,7 +1,10 @@
 package com.hpsgts.hpcloud.common.utils;
 
 import java.util.UUID;
-
+/**
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
+ */
 public class UUIDUtils {
 
 	/** 

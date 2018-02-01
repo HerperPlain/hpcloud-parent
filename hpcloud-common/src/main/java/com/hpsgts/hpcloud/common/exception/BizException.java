@@ -1,9 +1,9 @@
 package com.hpsgts.hpcloud.common.exception;
+
 /**
- * 
  * 自定义业务异常
- * @author 黄朴（
- *
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
  */
 public class BizException extends RuntimeException {
 

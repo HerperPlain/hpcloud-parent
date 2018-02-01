@@ -3,9 +3,9 @@ package com.hpsgts.hpcloud.common.utils;
 import java.math.BigDecimal;
 
 /**
- * 由于Java的简单类型不能够精确的对浮点数进行运算，这个工具类提供精 确的浮点数运算，包括加减乘除和四舍五入。
- * 
- * @author xugq
+ *  由于Java的简单类型不能够精确的对浮点数进行运算，这个工具类提供精 确的浮点数运算，包括加减乘除和四舍五入。
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
  */
 public class DecimalUtil {
 

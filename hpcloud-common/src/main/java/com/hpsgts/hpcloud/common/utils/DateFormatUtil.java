@@ -12,9 +12,9 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * 日期转换类
- * @author conly.wang 2015-11-04
- *
+ *  日期转换类
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
  */
 public abstract class DateFormatUtil extends Detect {
 

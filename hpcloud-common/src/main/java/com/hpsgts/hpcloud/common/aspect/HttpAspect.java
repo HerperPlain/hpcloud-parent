@@ -11,10 +11,11 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 
+
 /**
  * 请求log日志记录
- * @author xugq
- *
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/2/1 下午12:10
  */
 @Aspect
 @Component

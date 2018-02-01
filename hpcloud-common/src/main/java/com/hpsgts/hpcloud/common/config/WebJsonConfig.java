@@ -14,7 +14,10 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 
 import java.io.IOException;
-
+/**
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/2/1 下午12:10
+ */
 @Configuration
 public class WebJsonConfig {
 

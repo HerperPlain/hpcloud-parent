@@ -1,12 +1,9 @@
 package com.hpsgts.hpcloud.common.exception;
 
 /**
- * Created by IntelliJ IDEA.
- *
- * @author: caoxue
- * @date: 2017/12/25 14:55
- * @description: token失效异常类
- * @version: 1.0
+ * token失效异常类
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
  */
 public class TokenFailureException extends RuntimeException {
 

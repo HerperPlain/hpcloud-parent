@@ -1,7 +1,10 @@
 package com.hpsgts.hpcloud.common.utils;
 
 import java.io.ByteArrayOutputStream;
-
+/**
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
+ */
 public class Base64Util {
     private static final char[] base64EncodeChars = new char[] { 'A', 'B', 'C',
             'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',

@@ -11,7 +11,10 @@ import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Scope;
-
+/**
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/2/1 下午12:10
+ */
 public class RabbitMQConfig {
 
 	@Bean(name = "connectionFactory")

@@ -8,7 +8,10 @@ import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.*;
-
+/**
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
+ */
 public abstract class Detect {
 
 	private static final Logger log = LoggerFactory.getLogger(Detect.class);

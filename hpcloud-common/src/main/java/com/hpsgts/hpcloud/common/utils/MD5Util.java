@@ -10,7 +10,10 @@ import org.apache.commons.logging.LogFactory;
 import java.io.*;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-
+/**
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
+ */
 public class MD5Util {
 	private final static Log log = LogFactory.getLog(MD5Util.class);
 

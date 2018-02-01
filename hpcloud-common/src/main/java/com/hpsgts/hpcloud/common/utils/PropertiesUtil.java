@@ -14,9 +14,8 @@ import java.util.Properties;
 
 /**
  * 读取config.properties配置
- * 
- * @author conly.wang
- *
+ * @author 黄朴（Herper.Plain）
+ * @Date 2018/02/01 下午12:30
  */
 public class PropertiesUtil {
 
